@@ -1,11 +1,6 @@
 /* Variables */
 
 /* Mixins */
-@mixin flexCenter($justify: center) {
-  display: flex;
-  justify-content:$justify;
-}
-
 /* Imports */
 @import "../node_modules/bootstrap/scss/bootstrap";
 
