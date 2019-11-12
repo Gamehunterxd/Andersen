@@ -4,4 +4,31 @@
 /* Imports */
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+header {
+  background-color: white;
+
+  nav{
+    a{
+      margin: 3% 7% 5% 7%;
+      font-size: 35px;
+      font-family: "Segoe UI";
+      font-weight: bold;
+      color: black;
+
+    }
+  }
+  .logo {
+    img {
+      width: 80%;
+      height: auto;
+      margin-left: 10%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  }
+}
+
+.active{
+
+}
 /* Styling */
