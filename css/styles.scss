@@ -10,7 +10,7 @@ header {
   nav{
     a{
       margin: 3% 7% 5% 7%;
-      font-size: 35px;
+      font-size: 20px;
       font-family: "Segoe UI";
       font-weight: bold;
       color: black;
@@ -31,4 +31,50 @@ header {
 .active{
 
 }
-/* Styling */
+
+@media screen and (min-width: 768px){
+  nav{
+    a{
+      margin: 3% 7% 5% 7%;
+      font-size: 30px!important;
+      font-family: "Segoe UI";
+      font-weight: bold;
+      color: black;
+
+    }
+  }
+  .logo {
+    img {
+      width: 60%!important;
+      height: auto;
+      margin-left: 20%!important;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  }
+}
+
+@media screen and(min-width: 1200px) {
+  nav {
+    a {
+      margin: 3% 7% 5% 7%;
+      font-size: 40px !important;
+      font-family: "Segoe UI";
+      font-weight: bold;
+      color: black;
+
+    }
+  }
+  .logo {
+    img {
+      width: 40%!important;
+      height: auto;
+      margin-left: 30%!important;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  }
+}
+
+
+
