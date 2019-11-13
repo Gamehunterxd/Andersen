@@ -9,7 +9,7 @@ header {
 
   nav{
     a{
-      margin: 3% 7% 5% 7%;
+      margin: 5% 7% 5% 7%;
       font-size: 20px;
       font-family: "Segoe UI";
       font-weight: bold;
@@ -32,11 +32,32 @@ header {
 
 }
 
+footer{
+  background-color: black;
+  color: white;
+  div{
+    ul{
+    list-style: none;
+      padding: 15px;
+    li{
+    }
+    .line{
+      border-left: 6px white;
+      height: 10px;
+      background-color: white;
+      width: 2px;
+    }
+  }
+  }
+
+
+}
+
 @media screen and (min-width: 768px){
   nav{
     a{
-      margin: 3% 7% 5% 7%;
-      font-size: 30px!important;
+      margin: 5% 7% 5% 7%;
+      font-size: 25px!important;
       font-family: "Segoe UI";
       font-weight: bold;
       color: black;
@@ -57,8 +78,8 @@ header {
 @media screen and(min-width: 1200px) {
   nav {
     a {
-      margin: 3% 7% 5% 7%;
-      font-size: 40px !important;
+      margin: 2% 7% 2% 7%!important;
+      font-size: 30px !important;
       font-family: "Segoe UI";
       font-weight: bold;
       color: black;
