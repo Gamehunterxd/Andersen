@@ -1,5 +1,5 @@
 /* Variables */
-
+$primaryColor: #589754;
 /* Mixins */
 /* Imports */
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -29,7 +29,7 @@ header {
 }
 
 .active{
-
+  color: $primaryColor;
 }
 
 footer{
