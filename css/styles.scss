@@ -83,6 +83,15 @@ footer{
   background-color: $primaryColor;
   color: white;
 }
+.card-body{
+  background: $greyBG;
+}
+
+.fas{
+  color: $primaryColor;
+  font-size: 60px;
+}
+
 @media screen and (min-width: 768px){
   nav{
     a{
@@ -154,5 +163,6 @@ footer{
     }
   }
 }
+
 
 
