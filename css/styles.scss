@@ -50,9 +50,39 @@ footer{
   }
   }
 
-
 }
 
+#ListWrapper{
+  ul{
+    li{
+      list-style-type: none;
+
+      .TextEditing{
+        text-decoration: none;
+        color: black;
+
+        .CustomIcon{
+          font-size: 46px;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+#form{
+  form{
+    .form-group{
+      .Custom_input {
+        background-color: lightgray;
+      }
+    }
+  }
+}
+.btn-custom{
+  background-color: $primaryColor;
+  color: white;
+}
 @media screen and (min-width: 768px){
   nav{
     a{
@@ -72,6 +102,34 @@ footer{
       margin-top: 5%;
       margin-bottom: 5%;
     }
+  }
+  #ListWrapper{
+    ul{
+      li{
+        .TextEditing{
+          font-size: 32px;
+          .CustomIcon{
+            font-size: 72px;
+          }
+        }
+      }
+    }
+  }
+  #form{
+    h5{
+      font-size: 38px;
+    }
+    form{
+      .form-group{
+        .Custom_input {
+          background-color: lightgray;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  .btn-custom{
+    font-size: 38px;
   }
 }
 
@@ -96,6 +154,5 @@ footer{
     }
   }
 }
-
 
 
