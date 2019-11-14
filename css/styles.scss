@@ -1,5 +1,6 @@
 /* Variables */
 $primaryColor: #589754;
+$greyBG: #D8D8D8;
 /* Mixins */
 /* Imports */
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -51,6 +52,15 @@ footer{
   }
 
 
+}
+
+.card-body{
+  background: $greyBG;
+}
+
+.fas{
+  color: $primaryColor;
+  font-size: 60px;
 }
 
 @media screen and (min-width: 768px){
